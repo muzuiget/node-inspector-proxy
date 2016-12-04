@@ -18,7 +18,7 @@ Now you can use node-inspector-proxy:
     git clone https://github.com/muzuiget/node-inspector-proxy.git
     cd node-inspector-proxy
     npm install
-    npm start 0.0.0.0:9230
+    npm start 127.0.0.1:9230
 
 Then will start a proxy server, open the url in Chrome
 
