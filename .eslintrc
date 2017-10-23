@@ -13,7 +13,10 @@
         "comma-dangle": [2, "always-multiline"],
         "eol-last": 2,
         "eqeqeq": 2,
-        "indent": [2, 4, {"SwitchCase": 1}],
+        "indent": [2, 4, {
+            "SwitchCase": 1,
+            "CallExpression": {"arguments": "first"},
+        }],
         "key-spacing": [2, {"afterColon": true}],
         "keyword-spacing": 2,
         "no-dupe-args": 2,
@@ -33,12 +36,13 @@
         "quotes": [2, "single", "avoid-escape"],
         "semi": [2, "always"],
         "space-before-blocks": 2,
-        "space-before-function-paren": [2, "never"],
-        "space-in-parens": 2,
+        "space-before-function-paren": [2, {
+            "anonymous": "never",
+            "named": "never",
+            "asyncArrow": "ignore"
+        }],
         "space-infix-ops": 2,
-        "strict": [2, "never"]
-    },
-    "plugins": [
-        "babel"
-    ]
+        "space-in-parens": 2,
+        "strict": [2, "global"]
+    }
 }
