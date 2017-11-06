@@ -1,6 +1,6 @@
 {
     "name": "node-inspector-proxy",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "muzuiget",
     "license": "MIT",
     "repository": {
@@ -18,10 +18,10 @@
         "babel-cli": "6.26.0",
         "babel-preset-env": "1.6.1",
         "babel-preset-stage-0": "6.24.1",
-        "ws": "3.2.0"
+        "ws": "3.3.0"
     },
     "devDependencies": {
         "babel-eslint": "8.0.1",
-        "eslint": "4.9.0"
+        "eslint": "4.10.0"
     }
 }
