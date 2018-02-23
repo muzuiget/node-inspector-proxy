@@ -12,7 +12,7 @@
         "inspector"
     ],
     "scripts": {
-        "start": "babel-node index.js"
+        "start": "babel-node main.js"
     },
     "dependencies": {
         "babel-cli": "6.26.0",
