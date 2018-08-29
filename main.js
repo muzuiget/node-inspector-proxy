@@ -10,4 +10,3 @@ To start debugging, open the following URL in Chrome:
 The suffix of the URL "9229" is the port which you want to proxy.
 `);
 server.listen(port, host);
-

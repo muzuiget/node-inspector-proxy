@@ -1,23 +1,24 @@
 {
     "name": "node-inspector-proxy",
-    "version": "0.0.3",
+    "version": "1.0.0",
     "author": "muzuiget",
     "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/muzuiget/node-inspector-proxy.git"
-    },
     "keywords": [
         "node",
         "inspector"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/muzuiget/node-inspector-proxy.git"
+    },
     "scripts": {
         "start": "babel-node main.js"
     },
     "dependencies": {
-        "babel-cli": "6.26.0",
-        "babel-preset-env": "1.7.0",
-        "babel-preset-stage-0": "6.24.1",
+        "@babel/core": "7.0.0",
+        "@babel/node": "7.0.0",
+        "@babel/plugin-proposal-class-properties": "7.0.0",
+        "@babel/preset-env": "7.0.0",
         "ws": "6.0.0"
     },
     "devDependencies": {
