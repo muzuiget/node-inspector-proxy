@@ -36,6 +36,8 @@
             }
         ],
         "keyword-spacing": "error",
+        "no-console": "off",
+        "no-constant-condition": "off",
         "no-dupe-args": "error",
         "no-dupe-keys": "error",
         "no-eval": "error",
@@ -43,6 +45,7 @@
         "no-extra-bind": "error",
         "no-extra-semi": "error",
         "no-mixed-spaces-and-tabs": "error",
+        "no-multi-spaces": "error",
         "no-spaced-func": "error",
         "no-trailing-spaces": "error",
         "no-undef": "error",
@@ -78,7 +81,7 @@
         "space-infix-ops": "error",
         "strict": [
             "error",
-            "global"
+            "never"
         ]
     }
 }
