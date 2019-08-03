@@ -121,7 +121,7 @@ class ProxyServer {
 
 }
 
-const address = process.argv[2] || '0.0.0.0:9230';
+const address = process.argv[2] || '127.0.0.1:9230';
 const [host, port] = address.split(':');
 const server = new ProxyServer();
 console.info(`
