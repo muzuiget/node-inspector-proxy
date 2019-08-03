@@ -12,7 +12,7 @@
         "url": "https://github.com/muzuiget/node-inspector-proxy.git"
     },
     "scripts": {
-        "start": "babel-node main.js"
+        "start": "babel-node index.js"
     },
     "devDependencies": {
         "babel-eslint": "10.0.2",
