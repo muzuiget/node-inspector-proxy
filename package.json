@@ -15,12 +15,12 @@
         "start": "babel-node index.js"
     },
     "devDependencies": {
-        "babel-eslint": "10.0.2",
-        "eslint": "6.1.0",
-        "ws": "7.1.1",
-        "@babel/core": "7.5.5",
-        "@babel/node": "7.5.5",
+        "babel-eslint": "10.0.3",
+        "eslint": "6.4.0",
+        "ws": "7.1.2",
+        "@babel/core": "7.6.0",
+        "@babel/node": "7.6.1",
         "@babel/plugin-proposal-class-properties": "7.5.5",
-        "@babel/preset-env": "7.5.5"
+        "@babel/preset-env": "7.6.0"
     }
 }
