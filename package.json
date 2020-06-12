@@ -1,6 +1,6 @@
 {
     "name": "node-inspector-proxy",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "muzuiget",
     "license": "MIT",
     "keywords": [
@@ -12,15 +12,10 @@
         "url": "https://github.com/muzuiget/node-inspector-proxy.git"
     },
     "scripts": {
-        "start": "babel-node index.js"
+        "start": "node index.js"
     },
+    "type": "module",
     "devDependencies": {
-        "babel-eslint": "10.1.0",
-        "eslint": "7.2.0",
-        "ws": "7.3.0",
-        "@babel/core": "7.10.2",
-        "@babel/node": "7.10.1",
-        "@babel/plugin-proposal-class-properties": "7.10.1",
-        "@babel/preset-env": "7.10.2"
+        "ws": "7.3.0"
     }
 }
