@@ -1,6 +1,6 @@
-import WebSocket from 'ws';
+import url from 'url';
 import http from 'http';
-import liburl from 'url';
+import WebSocket from 'ws';
 
 class ProxyServer {
 
@@ -17,7 +17,7 @@ class ProxyServer {
 
     onServerConnection = (frontend, incomingMessage) => {
         frontend._socket.pause();
-        const parsedUrl = liburl.parse(incomingMessage.url, true);
+        const parsedUrl = url.parse(incomingMessage.url, true);
         const id = parsedUrl.pathname.slice(1);
 
         this.closeSession(id);
