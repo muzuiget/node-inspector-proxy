@@ -128,7 +128,7 @@ console.info(`
 Debugger Proxy listening on port ${port}.
 To start debugging, open the following URL in Chrome:
 
-    chrome-devtools://devtools/bundled/js_app.html?ws=127.0.0.1:${port}/9229
+    chrome://devtools/bundled/js_app.html?ws=127.0.0.1:${port}/9229
 
 The suffix of the URL "9229" is the port which you want to proxy.
 `);
