@@ -16,6 +16,6 @@
     },
     "type": "module",
     "devDependencies": {
-        "ws": "7.3.0"
+        "ws": "7.3.1"
     }
 }
